@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+nav{
+    height: 35px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.logo a{
+   font-size: 20px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-text a{
+    margin-right: 15px;
+}
+main{
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+    color: rgb(245, 16, 131);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: blueviolet;
+    background-image: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+main h1{
+    font-size: 45px;
+}
+main h2{
+    font-size: 35px;
+}
+button{
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    font-weight: 700;
+}
+.header-text{
+    font-size: 50px;
+    margin: 15px 0;
+    text-align: center;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    margin: 0px 20%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    margin: 0px 5%;
+}
+.box{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 20px;
+}
+.box h3{
+    font-size: 25px;
+}
+.box h3 a{
+    color: coral;
+}
+.box:hover{
+    background-color: rgb(235, 11, 67);
+    transition: background-color 2s linear 1s;
+}
+.contact-container{
+    height: 300px;
+    background-color: rgb(10, 160, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-field{
+    padding: 15px;
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
